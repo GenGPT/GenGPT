@@ -3,13 +3,22 @@ header{
     background-color: rgb(3, 42, 76);
 }
 .logo{
+    height: 250px;
     width: 100%;
     border-bottom: 3px solid rgb(244, 213, 169);
 }
 .image{
-    margin: 0 auto;
-    width: 332px;
-    height: 332px;
+    margin: 0;
+    width: 400px;
+    height: 100px;
+}
+.inf1{
+    color: rgb(244, 213, 169);
+    font-size: 56px;
+    width: 200%;
+    text-align: center;
+    justify-content: center;
+    margin: 0px 0 0 0;
 }
 ul{
     list-style: none;
@@ -32,38 +41,14 @@ a{
 a:hover{
     color: rgb(73, 78, 148);
 }
-.off{
-    top:150px;
-    width: 100%;
-    display: flex;
-    height: 368px;
-}
-.im-le{
-    width: 33.3%;
-    background-image: url('img/armmuslogo.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.im-le2{
-    width: 33.3%;
-    background-image: url('img/armmus1.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 .im-ri{
-    width: 33.4%;
-    background-image: url('img/armmus2.png');
-    background-repeat: no-repeat;
+    top:500px;
+    background-image: url(img/armmuslogo.png);
+    /* background-repeat: no-repeat; */
     background-size: cover;
+    height: 700px;
 }
-.inf1{
-    position: relative;
-    top:0px;
-    right: 550px;
-    color: rgb(255, 255, 255);
-    font-size: 25px;
-    width: 600px;
-}
+
 .pros{
     width: 100%;
     height: 30px;
@@ -94,7 +79,7 @@ a:hover{
     display: flex;
     justify-content: space-around;
 }
-/* .im1{
+.im1{
     width: 3px;
     height: 3px;
 }
@@ -105,7 +90,7 @@ a:hover{
 .im3{
     width: 3px;
     height: 3px;
-} */
+}
 .text1{
     text-align: center;
 }
@@ -139,12 +124,11 @@ form{
     justify-content: space-around;
     margin-top: 100px;
 }
-.st1{
+.stt{
     width: 150px;
 }
-.st2{
-}
-.st3{
+.str{
+    width: 150px;
 }
 footer{
     background-color: rgb(3, 42, 76);
